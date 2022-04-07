@@ -1,0 +1,33 @@
+.navbar {
+    height: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    align-items: center;
+    column-gap: 2em;
+    display: flex;
+}
+@media screen and (max-width: 480px) {
+    .navbar {
+        column-gap: 1em;
+    }
+}
+
+.navbar .home-logo {
+    width: 4em;
+
+    display: inline-block;
+}
+
+.navbar .link {
+    color: #000;
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+}
+.navbar .link:hover {
+    text-decoration: underline;
+}
+.navbar .link:active {
+    opacity: 0.75;
+}

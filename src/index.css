@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: HelveticaNeue-Medium, "Helvetica Neue", system-ui, -apple-system, "Segoe UI", Ubuntu, Cantarell,
+               "Noto Sans", sans-serif;
+    font-size: 1.2em;
+}
+
+button {
+    font-family: HelveticaNeue-Medium, "Helvetica Neue", system-ui, -apple-system, "Segoe UI", Ubuntu, Cantarell,
+               "Noto Sans", sans-serif;
+}
