@@ -1,46 +1,29 @@
+/* Custom Properties */
 .app {
-    color: #000000;
-    font-weight: 500;
+    --g-background-color-grey: #FAFAFA;
+
+    --g-border-color-grey-dark: #EBEBEB;
+
+    --g-color-text-black: #000;
+    --g-color-text-grey: #666;
+    --g-color-text-white: #FFF;
+
+    --g-color-link-blue: #0056F1;
+
+    --g-font-weight-regular: 400;
+    --g-font-weight-semi-bold: 500;
+
+    --g-spacing-1x-small: 0.5rem;
+    --g-spacing-1x: 1rem;
+    --g-spacing-1x-large: 1.5rem;
+    --g-spacing-2x: 2rem;
+    --g-spacing-2x-large: 2.5rem;
+    --g-spacing-4x: 4rem;
+    --g-spacing-5x: 5rem;
+    --g-spacing-5x-large: 5.5rem;
 }
 
-h1 {
-    margin: 0;
-    padding-bottom: 0.2em;
-    padding-top: 0.2em;
-    
-    font-size: 2.5em;
-    font-weight: 500;
-}
-
-h3 {
-    margin: 0;
-    padding-bottom: 1.2em;
-    padding-top: 1.2em;
-
-    font-size: 1.3em;
-    font-weight: 500;
-}
-
-button {
-    transition-duration: 0.2s;
-    
-    border: 2px solid #000000;
-    border-radius: 0.3em;
-    box-sizing: border-box;
-    padding: 1em 1.6em;
-
-    background-color: black;
-    color: #FFFFFF;
-    font-size: 0.8em;
-    font-weight: 500;
-    text-decoration: none;
-}
-button:hover {
-    cursor: pointer;
-
-    background-color: #FFFFFF;
-    color: #000000;
-}
-button:active {
-    transform: translateY(0.2em);
+.app {
+    color: var(--g-color-text-black);
+    font-weight: var(--g-font-weight-semi-bold);
 }

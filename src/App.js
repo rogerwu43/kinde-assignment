@@ -14,12 +14,14 @@ function App() {
             <Router>
                 <Navbar />
 
-                <Routes>
-                    <Route path="/payments" element={<PaymentsPage />} />
-                    <Route path="/faq" element={<FAQPage />} />
+                <main>
+                    <Routes>
+                        <Route path="/payments" element={<PaymentsPage />} />
+                        <Route path="/faq" element={<FAQPage />} />
 
-                    <Route path="*" element={<Navigate to="/payments" replace />} />
-                </Routes>
+                        <Route path="*" element={<Navigate to="/payments" replace />} />
+                    </Routes>
+                </main>
             </Router>
         </div>
     );

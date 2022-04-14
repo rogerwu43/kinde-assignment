@@ -6,7 +6,7 @@ import './FAQPage.css';
 
 function FAQPage() {
     return (
-        <div className="pages-medium-page">
+        <div className="faq-page pages-medium-page">
             <h1>FAQ</h1>
 
             <div className="pages-body-container">
@@ -19,7 +19,7 @@ function FAQPage() {
                     eget, accumsan est. Sed orci lectus, accumsan a accumsan eget, placerat eu quam.
                 </p>
 
-                <h3>Something here</h3>
+                <h2>Something here</h2>
                 <p>
                     Nunc vehicula ante non lectus finibus gravida. Nullam et faucibus elit. Ut euismod, nisl non consequat imperdiet, justo magna venenatis
                     libero, non elementum risus felis quis leo. Nullam leo metus, cursus non purus et, elementum suscipit mi. Donec luctus lacus nulla, non
@@ -27,7 +27,7 @@ function FAQPage() {
                     commodo et nec nibh. Phasellus non urna quis justo facilisis efficitur.
                 </p>
 
-                <h3>Wow, amazing!</h3>
+                <h2>Wow, amazing!</h2>
                 <p>
                     Integer porta nisi sit amet diam volutpat tristique. Etiam vitae ornare odio, ac varius eros. Fusce varius erat diam, et ullamcorper elit
                     vestibulum at. Phasellus non blandit enim. Nullam venenatis ultrices nunc in pretium. Nullam accumsan malesuada urna at semper. Duis
@@ -35,14 +35,14 @@ function FAQPage() {
                     hendrerit lectus. Sed et urna bibendum, ornare quam euismod, consectetur ipsum.
                 </p>
 
-                <h3>Payment providers</h3>
+                <h2>Payment providers</h2>
                 <p>
                     Maecenas auctor tortor nisi, ac placerat erat scelerisque vel. Praesent sem urna, venenatis scelerisque egestas sed, suscipit et neque. Nulla
                     nibh arcu, rhoncus eu bibendum in, auctor sagittis massa. Quisque vel nulla quis metus porta gravida. Sed sit amet varius risus. Duis
                     efficitur, risus vitae blandit interdum, nibh turpis posuere enim, nec ullamcorper erat magna at lorem. Proin blandit eros enim.
                 </p>
 
-                <h3>More stuff</h3>
+                <h2>More stuff</h2>
                 <p>
                     Nulla sed arcu massa. Pellentesque ut ipsum et nulla auctor tincidunt nec at lorem. Cras consequat mauris et odio ornare pretium. Sed
                     congue consectetur faucibus. Nullam at dolor mauris. Nunc sit amet ligula velit. Vivamus imperdiet laoreet dapibus. Nullam quis feugiat

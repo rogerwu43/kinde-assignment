@@ -1,70 +1,25 @@
 .payments-page .subtitle {
-    color: #666;
+    margin: 0;
+
+    color: var(--g-color-text-grey);
 }
 
 .payments-page .subtitle a {
-    color: #0056F1;
+    color: var(--g-color-link-blue);
     text-decoration: none;
 }
 .payments-page .subtitle a:hover {
-    border-bottom: 2px solid #0056F1;
+    border-bottom: 2px solid var(--g-color-link-blue);
 }
 .payments-page .subtitle a:active {
     opacity: 0.75;
 }
 
-.payments-page .payment-list {
-    border-radius: 1em;
+.payments-page .provider-list {
+    border-radius: var(--g-spacing-1x);
+    margin: 0;
+    padding: 0;
 
-    background-color: #FAFAFA;
-}
-
-.payments-page .payment-container {
-    padding: 2em;
-    min-height: calc(180px - 4em);
-
-    display: flex;
-}
-@media screen and (max-width: 480px) {
-    .payments-page .payment-container {
-        flex-direction: column;
-    }
-}
-.payments-page .payment-container + .payment-container {
-    border-top: 2px solid #EBEBEB;
-}
-
-.payments-page .payment-text-container {
-    flex: 1;
-}
-@media screen and (max-width: 480px) {
-    .payments-page .payment-text-container {
-        text-align: center;
-    }
-}
-
-.payments-page .stripe-logo {
-    width: 90px;
-}
-
-.payments-page .paypal-logo {
-    width: 150px;
-}
-
-.payments-page .text {
-    padding-top: 0.5em;
-}
-
-.payments-page .connect-button-container {
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-@media screen and (max-width: 480px) {
-    .payments-page .connect-button-container {
-        padding-top: 2em;
-    }
+    background-color: var(--g-background-color-grey);
+    list-style-type: none;
 }

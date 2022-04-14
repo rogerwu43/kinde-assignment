@@ -1,28 +1,38 @@
 .navbar {
-    height: 5em;
-    padding-left: 2em;
-    padding-right: 2em;
+    height: var(--g-spacing-5x);
+    padding-left: var(--g-spacing-2x);
+    padding-right: var(--g-spacing-2x);
 
     align-items: center;
-    column-gap: 2em;
+    column-gap: var(--g-spacing-2x);
     display: flex;
 }
 @media screen and (max-width: 480px) {
     .navbar {
-        column-gap: 1em;
+        column-gap: var(--g-spacing-1x);
     }
 }
 
 .navbar .home-logo {
-    width: 4em;
+    width: var(--g-spacing-4x);
 
     display: inline-block;
 }
 
+.navbar .links {
+    margin: 0;
+    padding: 0;
+
+    align-items: center;
+    column-gap: var(--g-spacing-2x);
+    display: flex;
+    list-style-type: none;
+}
+
 .navbar .link {
-    color: #000;
+    color: var(--g-color-text-black);
     display: inline-block;
-    font-weight: 400;
+    font-weight: var(--g-font-weight-regular);
     text-decoration: none;
 }
 .navbar .link:hover {
