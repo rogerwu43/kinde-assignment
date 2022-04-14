@@ -1,28 +1,28 @@
 .pages-medium-page {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-    padding: var(--g-spacing-1x-large) var(--g-spacing-2x-large);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: var(--g-spacing-1x-large) var(--g-spacing-2x-large);
 }
 
 .pages-medium-page h1 {
-    margin: 0;
-    padding-bottom: var(--g-spacing-1x-small);
-    padding-top: var(--g-spacing-1x-small);
+  margin: 0;
+  padding-bottom: var(--g-spacing-1x-small);
+  padding-top: var(--g-spacing-1x-small);
 
-    font-size: 2.5rem;
-    font-weight: var(--g-font-weight-semi-bold);
+  font-size: 2.5rem;
+  font-weight: var(--g-font-weight-semi-bold);
 }
 
 .pages-medium-page h2 {
-    margin: 0;
-    padding-bottom: var(--g-spacing-1x-large);
-    padding-top: var(--g-spacing-1x-large);
+  margin: 0;
+  padding-bottom: var(--g-spacing-1x-large);
+  padding-top: var(--g-spacing-1x-large);
 
-    font-size: 1.3rem;
-    font-weight: var(--g-font-weight-semi-bold);
+  font-size: 1.3rem;
+  font-weight: var(--g-font-weight-semi-bold);
 }
 
 .pages-body-container {
-    margin-top: var(--g-spacing-2x);
+  margin-top: var(--g-spacing-2x);
 }

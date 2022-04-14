@@ -1,29 +1,29 @@
 /* Custom Properties */
 .app {
-    --g-background-color-grey: #FAFAFA;
+  --g-background-color-grey: #fafafa;
 
-    --g-border-color-grey-dark: #EBEBEB;
+  --g-border-color-grey-dark: #ebebeb;
 
-    --g-color-text-black: #000;
-    --g-color-text-grey: #666;
-    --g-color-text-white: #FFF;
+  --g-color-text-black: #000;
+  --g-color-text-grey: #666;
+  --g-color-text-white: #fff;
 
-    --g-color-link-blue: #0056F1;
+  --g-color-link-blue: #0056f1;
 
-    --g-font-weight-regular: 400;
-    --g-font-weight-semi-bold: 500;
+  --g-font-weight-regular: 400;
+  --g-font-weight-semi-bold: 500;
 
-    --g-spacing-1x-small: 0.5rem;
-    --g-spacing-1x: 1rem;
-    --g-spacing-1x-large: 1.5rem;
-    --g-spacing-2x: 2rem;
-    --g-spacing-2x-large: 2.5rem;
-    --g-spacing-4x: 4rem;
-    --g-spacing-5x: 5rem;
-    --g-spacing-5x-large: 5.5rem;
+  --g-spacing-1x-small: 0.5rem;
+  --g-spacing-1x: 1rem;
+  --g-spacing-1x-large: 1.5rem;
+  --g-spacing-2x: 2rem;
+  --g-spacing-2x-large: 2.5rem;
+  --g-spacing-4x: 4rem;
+  --g-spacing-5x: 5rem;
+  --g-spacing-5x-large: 5.5rem;
 }
 
 .app {
-    color: var(--g-color-text-black);
-    font-weight: var(--g-font-weight-semi-bold);
+  color: var(--g-color-text-black);
+  font-weight: var(--g-font-weight-semi-bold);
 }

@@ -1,76 +1,76 @@
 .provider-card {
-    padding: var(--g-spacing-2x);
-    min-height: calc(var(--g-spacing-5x-large) - 2*var(--g-spacing-2x));
+  padding: var(--g-spacing-2x);
+  min-height: calc(var(--g-spacing-5x-large) - 2 * var(--g-spacing-2x));
 
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 @media screen and (max-width: 480px) {
-    .provider-card {
-        flex-direction: column;
-    }
+  .provider-card {
+    flex-direction: column;
+  }
 }
 
 .provider-card + .provider-card {
-    border-top: 2px solid var(--g-border-color-grey-dark);
+  border-top: 2px solid var(--g-border-color-grey-dark);
 }
 
 .provider-card .provider-card-text-container {
-    flex: 1;
+  flex: 1;
 }
 @media screen and (max-width: 480px) {
-    .provider-card .provider-card-text-container {
-        text-align: center;
-    }
+  .provider-card .provider-card-text-container {
+    text-align: center;
+  }
 }
 
 .provider-card .stripe-logo {
-    width: 90px;
+  width: 90px;
 }
 
 .provider-card .paypal-logo {
-    width: 150px;
+  width: 150px;
 }
 
 .provider-card .text {
-    margin: 0;
-    padding-top: var(--g-spacing-1x-small);
+  margin: 0;
+  padding-top: var(--g-spacing-1x-small);
 }
 
 .provider-card .connect-button-container {
-    padding-left: var(--g-spacing-1x);
-    padding-right: var(--g-spacing-1x);
+  padding-left: var(--g-spacing-1x);
+  padding-right: var(--g-spacing-1x);
 
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 @media screen and (max-width: 480px) {
-    .provider-card .connect-button-container {
-        padding-top: var(--g-spacing-2x);
-    }
+  .provider-card .connect-button-container {
+    padding-top: var(--g-spacing-2x);
+  }
 }
 
 .provider-card button {
-    transition-duration: 0.2s;
+  transition-duration: 0.2s;
 
-    border: 2px solid var(--g-color-text-black);
-    border-radius: 0.3rem;
-    box-sizing: border-box;
-    padding: var(--g-spacing-1x) var(--g-spacing-1x-large);
+  border: 2px solid var(--g-color-text-black);
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  padding: var(--g-spacing-1x) var(--g-spacing-1x-large);
 
-    background-color: var(--g-color-text-black);
-    color: var(--g-color-text-white);
-    font-size: 0.8rem;
-    font-weight: var(--g-font-weight-semi-bold);
-    text-decoration: none;
+  background-color: var(--g-color-text-black);
+  color: var(--g-color-text-white);
+  font-size: 0.8rem;
+  font-weight: var(--g-font-weight-semi-bold);
+  text-decoration: none;
 }
 .provider-card button:hover {
-    cursor: pointer;
+  cursor: pointer;
 
-    background-color: var(--g-color-text-white);
-    color: var(--g-color-text-black);
+  background-color: var(--g-color-text-white);
+  color: var(--g-color-text-black);
 }
 .provider-card button:active {
-    transform: translateY(0.2rem);
+  transform: translateY(0.2rem);
 }

@@ -1,25 +1,25 @@
 .payments-page .subtitle {
-    margin: 0;
+  margin: 0;
 
-    color: var(--g-color-text-grey);
+  color: var(--g-color-text-grey);
 }
 
 .payments-page .subtitle a {
-    color: var(--g-color-link-blue);
-    text-decoration: none;
+  color: var(--g-color-link-blue);
+  text-decoration: none;
 }
 .payments-page .subtitle a:hover {
-    border-bottom: 2px solid var(--g-color-link-blue);
+  border-bottom: 2px solid var(--g-color-link-blue);
 }
 .payments-page .subtitle a:active {
-    opacity: 0.75;
+  opacity: 0.75;
 }
 
 .payments-page .provider-list {
-    border-radius: var(--g-spacing-1x);
-    margin: 0;
-    padding: 0;
+  border-radius: var(--g-spacing-1x);
+  margin: 0;
+  padding: 0;
 
-    background-color: var(--g-background-color-grey);
-    list-style-type: none;
+  background-color: var(--g-background-color-grey);
+  list-style-type: none;
 }

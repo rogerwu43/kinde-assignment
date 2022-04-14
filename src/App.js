@@ -1,31 +1,34 @@
-import React from 'react';
-import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import React from "react";
+import {
+  Navigate,
+  Route,
+  BrowserRouter as Router,
+  Routes,
+} from "react-router-dom";
 
-import Navbar from './components/navbar/Navbar';
-import FAQPage from './pages/faq/FAQPage';
-import PaymentsPage from './pages/payments/PaymentsPage';
+import Navbar from "./components/navbar/Navbar";
+import FAQPage from "./pages/faq/FAQPage";
+import PaymentsPage from "./pages/payments/PaymentsPage";
 
-import './App.css';
-
+import "./App.css";
 
 function App() {
-    return (
-        <div className="app">
-            <Router>
-                <Navbar />
+  return (
+    <div className="app">
+      <Router>
+        <Navbar />
 
-                <main>
-                    <Routes>
-                        <Route path="/payments" element={<PaymentsPage />} />
-                        <Route path="/faq" element={<FAQPage />} />
+        <main>
+          <Routes>
+            <Route path="/payments" element={<PaymentsPage />} />
+            <Route path="/faq" element={<FAQPage />} />
 
-                        <Route path="*" element={<Navigate to="/payments" replace />} />
-                    </Routes>
-                </main>
-            </Router>
-        </div>
-    );
+            <Route path="*" element={<Navigate to="/payments" replace />} />
+          </Routes>
+        </main>
+      </Router>
+    </div>
+  );
 }
-
 
 export default App;
